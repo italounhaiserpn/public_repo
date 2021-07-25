@@ -27,7 +27,7 @@ According to the description of the case study, we know that “_Each row of dat
 
 Based on the potential problems of the device_name and interaction_with_app, I wouldn’t consider these two features in the model. 
 
-I would use the user_id, app_id, app category (even with the frequency issue mentioned above), ad category, and click.
+I would use the 'user_id', app_id, app category (even with the frequency issue mentioned above), ad category, and click.
 
 For each user_id we can have different registers in the dataset, and the iteration across the app_id, app_category, ad_category, and click would be used by the model to identify patterns for each user and across all the user_id’s, in order to get more accuracy on predicting the behavior and the patterns to have the correct outcome (gender).
 
