@@ -6,14 +6,18 @@ Date: 25/07/2021
 Instructions for the case study are available [here][link1].
 
 
-## Tasks:##
+## Tasks:
 > 1 - Imagine that you were asked to use this dataset to build a classification model, with gender as the target. Look at the information we have given you and identify 3-5 potential problems you can see with the provided dataset that might make building a classification model difficult.
+
 > 2 - Describe briefly how you would find the features that are likely to be the most important for your model.
+
 > 3 - Identify which model you would try first, and at least one advantage and disadvantage of this choice.
+
 > 4 - Write up your findings in a Markdown document.
+
 > 5 - Create a new Github repo and commit your Markdown document there.
 
-## Solution:##
+## Solution:
 
 Analyzing the given overview of the dataset, it’s possible to see that we have some missing data for device_name, app category, and ad category. For device_name it’s missing 59.10% of the values, 1.78% for the app category, and 1.78% for the ad category. However, it’s not possible to know the number of rows across the 3700 of the dataset that is missing more than one column of data.
 
